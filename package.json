@@ -1,0 +1,20 @@
+{
+  "name": "pinterest-scrapper",
+  "version": "1.0.0",
+  "description": "A scrapper for Pinterest pins",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcos Ocon <oconmarcos97@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.20.0",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.1",
+    "path": "^0.12.7",
+    "request": "^2.72.0"
+  }
+}
