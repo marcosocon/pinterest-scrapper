@@ -1,7 +1,5 @@
 var express = require('express');
 var bodyParser = require('body-parser');
-var request = require('request');
-var cheerio = require('cheerio');
 var mongoose = require('mongoose');
 var path = require('path');
 var routes = require('./routes');

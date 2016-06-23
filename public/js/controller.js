@@ -5,7 +5,20 @@
 				.controller('MainCtrl', MainCtrl);
 				MainCtrl.$inject = ['$scope','$http'];
 				function MainCtrl($scope, $http){
-					$scope.model = "modelo";
-				}
+					$scope.item={};
+					$scope.showForm = true;
+					$scope.showResults = false;
+					$scope.loading = false;
+					$scope.getData = function(){
+						$http.post('/api/scraper',{
+							url: $scope.item.url
+						})
+							.then(function(data){
+								console.log('data');
+								$scope.showResults = true;
+							});
+						};
+					}
+
 
 })();
