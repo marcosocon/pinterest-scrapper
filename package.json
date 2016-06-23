@@ -9,6 +9,7 @@
   "author": "Marcos Ocon <oconmarcos97@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "angular-ui-router": "^0.3.1",
     "body-parser": "^1.15.2",
     "cheerio": "^0.20.0",
     "ejs": "^2.4.2",
